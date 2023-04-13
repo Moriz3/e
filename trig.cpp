@@ -6,38 +6,38 @@ float a,b,c,menu,triangle;
 int main(){
 	int menu;
 	  cout<<"\t[!!]================================[!!]\n";
-      cout<<"             p i l i h a n m e n u"<<endl;
+          cout<<"             p i l i h a n m e n u"<<endl;
 	  cout<<"\t[!!]================================[!!]\n";
 	  cout<<endl;
-      cout<<"\t1.luas"<<endl;
-      cout<<"\t2.sinc"<<endl;
-      cout<<"\t3.sisi"<<endl;
+          cout<<"\t1.luas"<<endl;
+          cout<<"\t2.sinc"<<endl;
+          cout<<"\t3.sisi"<<endl;
 	  cout<<endl;
 	  cout<<"\t[!!]================================[!!]\n";
 	  cout<<"\tmasukan pilihan : ";
-      cin>>menu;
+          cin>>menu;
       
-	system("cls");
+	  system("cls");
 	
-      if(menu==1){
+          if(menu==1){
       	    cout<<"\t[!!]================================[!!]\n";
-      		cout<<"           	 	     l u a s "<<endl;
-	  		cout<<"\t[!!]================================[!!]\n";
+      	    cout<<"           	    l u a s "<<endl;
+	    cout<<"\t[!!]================================[!!]\n";
       	    cout<<endl;
-	      	cout<<"\talas   : ";
-	      	cin>>a;
-	      	cout<<"\ttinggi : ";
-	      	cin>>b;
-	      	cout<<"\t[!!]================================[!!]\n";
-	      	cout<<"\tjadi hasilnya adalah... "<<endl;
-			cout<<"\t"<<a<< "*" <<b<< " = " <<a*b<<endl;
-			cout<<"\t"<<a*b<< "/" <<2<< " = " <<(a*b)/2<<"";
+	    cout<<"\talas   : ";
+	    cin>>a;
+	    cout<<"\ttinggi : ";
+	    cin>>b;
+	    cout<<"\t[!!]================================[!!]\n";
+	    cout<<"\tjadi hasilnya adalah... "<<endl;
+	    cout<<"\t"<<a<< "*" <<b<< " = " <<a*b<<endl;
+	    cout<<"\t"<<a*b<< "/" <<2<< " = " <<(a*b)/2<<"";
 	    }else 
 	  if(menu==2){
-		    double c, result;
-		    cout<<"\t[!!]================================[!!]\n";
-      		cout<<"           	 	     s i n c "<<endl;
-	  		cout<<"\t[!!]================================[!!]\n";
+            double c, result;
+            cout<<"\t[!!]================================[!!]\n";
+      	    cout<<"      	      s i n c "<<endl;
+	    cout<<"\t[!!]================================[!!]\n";
       	    cout<<endl;
 		    cout<<"\tinput a : ";
 		    cin>>a;
